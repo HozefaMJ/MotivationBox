@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "Thoughts and Goals",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server",
+    "server": "nodemon backend/server"
   },
   "repository": {
     "type": "git",
